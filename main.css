@@ -1,15 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
 *{
-	margin:0;
+	marginn:0;
 	padding:0;
 	box-sizing: border-box;
 }
-
-
-
 header {
-	background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("hinh1.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("banner");
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
@@ -138,71 +135,31 @@ main{
 	color: white;
 }
 
-main h1,h2,p{
-	padding: 10px 0;
+#body1 {
+	display: flex;
+	flex-direction:column;
+	padding: 100px;
 }
-#body1{
-	padding: 50px;
+
+#body1 .cachdong {
+	padding-bottom: 40px;
 	
 }
 
-#body1 .part1{
-	padding: 50px
-}
-#body1 .part1 img{
-	height: 150px;
+#body1 .part1 .element{
+	width: 5%
 }
 
-#body1 .part2{
-	display: grid;
-	grid-template-columns: 60% 40%;
-	grid-auto-rows: 300px 300px;
-	grid-gap: 20px;
-	padding: 30px;
-}
-
-.part2 .grid1{
-	background-image: url("42");
-	background-size: cover;
-	grid-row:1/3;
-}
-
-.part2 .grid2{
-	background-image: url("82");
-	background-size: cover;
-
-}
-
-.part2 .grid3{
-	background-image: url("56");
-	background-size: cover;
-}
-
-
-.part3 img{
-	width: 5%;
-}
-
-.part3 button{
-background: transparent;
-	border: 1px solid white;
-	padding: 10px 20px;
-	color: white;
-	margin: 10px;
-	}
-
-.part3 button:hover {
-	background-color: #B26D5E;
+#body2{
+	background-color: #B16D5E;
 	color: black;
+	height: 550px;
+	padding: 50px 0;
 }
 
 #body2 .element{
 	width: 5%;
-	padding-bottom: 30px;
-}
-
-#body2 .item{
-	width: 100%;
+	padding-top: 20px;
 }
 
 #body3 .all{
@@ -220,118 +177,104 @@ background: transparent;
 #body3 .right {
 	display: flex;
 	flex-direction: column;
-	width: 500px;
+	width: 800px;
 	align-items:center
 }
 
-#body3 .right button{
-	background: transparent;
-	border: 1px solid white;
-	padding: 10px 20px;
-	color: white;
-} 
-
-#body3 .right button:hover {
-	background-color: #B26D5E;
-	color: black;
-}
-#body4{
-	background-color: #B16D5E;
-	color: black;
-	height: 1350px;
-	padding: 50px 0;
+#body4 .part1{
+	display: flex;
+	justify-content:space-around;
 }
 
-#body4 .all {
+#body4 .part1 .right{
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	align-items: center;
+	width:  40%;
+	border: 1px solid  white;
+	padding: 50px;
+}
+
+#body4 .part1 .right img{
+	width: 15%;
+}
+
+#body4 .part2{
+	display: flex;
+	justify-content:space-around;
+	margin-top: 30px;
+}
+
+#body4 .part2 .left{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	width:  40%;
+	border: 1px solid  white;
+	padding: 50px;
+}
+
+#body4 .part2 .left img{
+	width: 15%;
+}
+
+#body4 .part3{
+	display: flex;
+	justify-content:space-around;
+	margin-top: 30px;
+}
+
+#body4 .part3 .right{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width:  40%;
+	border: 1px solid  white;
+	padding: 50px;
+}
+
+#body4 .part3 .right img{
+	width: 15%;
+}
+
+#body4 .part4{
+	display: flex;
+	justify-content:space-around;
+	margin-top: 30px;
+}
+
+#body4 .part4 .left{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	width:  40%;
+	border: 1px solid  white;
+	padding: 50px;
+}
+
+#body4 .part4 .left img{
+	width: 15%;
+}
+
+#body5 {
+	display: flex;
+	justify-content: space-between;
+	padding: 100px;
+	color: white;
 	
 }
 
-#body4 .element{
-	width: 5%;
-	padding-bottom: 30px;
+#body5 p{
+	margin-bottom: 30px;
 }
-
-#body4 img{
-	width: 90%;
-}
-
-#body4 .bottom{
-	width: 70%;
-}
-
-#body4 .bottom p{
-	padding-top: 50px;
-}
-
-#body4 button{
-	background: transparent;
-	border: 1px solid black;
-	padding: 10px 20px;
-	color: black;
-} 
-
-#body4 button:hover {
-	background-color: #181818;
-	color: white
-}
-#body5{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 20px;
-} 
 
 #body5 .element{
 	width: 5%;
-	padding-bottom: 30px;
 }
-
-#body5 button{
-	background: transparent;
-	border: 1px solid white;
-	padding: 10px 20px;
-	color: white;
-} 
-
-#body5 button:hover {
-	background-color: #B26D5E;
-	color: black;
-}
-
-#body5 .card{
-	display: flex;
-	justify-content: space-between;
-	margin: 50px 0px;
-}
-
-#body5 .col img{
-	width: 80%;
-}
-
-#body6{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 20px;
-} 
-
-
-#body6 .tren button{
-	background: transparent;
-	border: 1px solid white;
-	padding: 10px 20px;
-	color: white;
-	margin-bottom: 50px;
-} 
-
-#body6 .tren button:hover {
-	background-color: #B26D5E;
-	color: black;
-}
-
 
 footer{
 	display:flex;
