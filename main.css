@@ -130,111 +130,125 @@ header .phai{
 	color:#B26D5E;
 }
 
-main{
+
+main {
 	background-color: #181818;
-	text-align: center;
 	color: white;
+	padding: 100px 0;
 }
-
 #body1{
-padding-top: 100px;
-}
-
-#body1 p {
-	padding: 20px;
-	
-}
-
-#body1 img{
-	width: 5%;	
-	margin-top: 10px;
-}
-
-#body4{
-	padding: 100px;
-}
-
-#body4 .part1{
-	display: flex;
-	justify-content:space-around;
-}
-
-#body4 .part1 .right{
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
-	width:  40%;
-	border: 1px solid  white;
-	padding: 50px;
 }
 
-#body4 .part1 .right img{
-	width: 50%;
-	margin: 50px;
-}
-
-#body4 .part2{
+#body1 .box1{
 	display: flex;
-	justify-content:space-around;
-	margin-top: 30px;
+	justify-content:space-between;
+	border: 1px solid white;
+	width: 60%;
 }
 
-#body4 .part2 .left{
+#body1 .box1 .left{
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items:center;
-	width:  40%;
-	border: 1px solid  white;
-	padding: 50px;
+	justify-content:space-between;
+	width:30%;
+	padding: 30px 10px 30px 70px;
 }
 
-#body4 .part2 .left img{
-	width: 50%;
-	margin: 50px;
+#body1 .box1 .right{
+	padding: 30px 70px 30px 0;
 }
 
-#body4 .part3{
+
+#body1 .box2{
 	display: flex;
-	justify-content:space-around;
-	margin-top: 30px;
+	justify-content:space-between;
+	border: 1px solid white;
+	width: 60%;
 }
 
-#body4 .part3 .right{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width:  40%;
-	border: 1px solid  white;
-	padding: 50px;
-}
-
-#body4 .part3 .right img{
-	width: 50%;
-	margin: 50px;
-}
-
-#body4 .part4{
-	display: flex;
-	justify-content:space-around;
-	margin-top: 30px;
-}
-
-#body4 .part4 .left{
+#body1 .box2 .left{
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items:center;
-	width:  40%;
-	border: 1px solid  white;
-	padding: 50px;
+	justify-content:space-between;
+	width:30%;
+	padding: 30px 10px 30px 70px;
 }
 
-#body4 .part4 .left img{
-	width: 50%;
-	margin: 50px;
+#body1 .box2 .right{
+	padding: 30px 70px 30px 0;
+}
+
+
+#body1 .box3{
+	display: flex;
+	justify-content:space-between;
+	border: 1px solid white;
+	width: 60%;
+}
+
+#body1 .box3 .left{
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+	width:30%;
+	padding: 30px 10px 30px 70px;
+}
+
+#body1 .box3 .right{
+	padding: 30px 70px 30px 0;
+}
+
+
+#body1 .box4{
+	display: flex;
+	justify-content:space-between;
+	border: 1px solid white;
+	width: 60%;
+}
+
+#body1 .box4 .left{
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+	width:30%;
+	padding: 30px 10px 30px 70px;
+}
+
+#body1 .box4 .right{
+	padding: 30px 70px 30px 0;
+}
+
+#body1 .box:hover{
+	border: 2px solid #B26D5E ;	
+}
+
+.box{
+	margin: 30px 0;
+}
+ .bottom a{
+	text-decoration: none;
+	color: white;
+	 border: 1px solid white;
+	 padding: 10px 20px;
+	 margin : 0px 0
+}
+
+.bottom a:hover{
+	background-color:#B26D5E; 
+	color:black;
+	border: 1px solid white;
+}
+
+.top p{ 
+margin-bottom: 10px;
+}
+
+.bottom p{ 
+margin-bottom: 30px;
 }
 
 footer{
@@ -251,7 +265,6 @@ footer img{
 .leftbox h4,p{
 	padding: 10px 0;
 }
-
 .leftbox{
 	text-align: left;
 }
